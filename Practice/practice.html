@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="practice.js" defer></script>
+    <style>
+      #id-style {
+        width: 100px;
+        height: 100px;
+        background: blue;
+        font-size: 10px;
+        color: white;
+        margin: 10px;
+      }
+
+      .class-style {
+        width: 100px;
+        height: 100px;
+        background: blue;
+        font-size: 40px;
+        color: white;
+        margin: 10px;
+      }
+      .buttonStyle {
+        width: 100px;
+        height: 100px;
+        background: red;
+        font-size: 60px;
+        color: white;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="buttonAlert()">ALERT</button>
+    <button onclick="buttonPrompt()">PROMPT</button>
+    <button onclick="buttonconfirm()">CONFIRM</button>
+    <button onclick="timer()">start</button>
+    <button onclick="stoptimercontainer()">stop</button>
+
+    <button onclick="startInterval()">stopwatch start</button>
+    <button onclick="stopInterval()">stopwatch stop</button>
+
+    <h1 id="container-timer"></h1>
+    <h1 id="interval-timer"></h1>
+  </body>
+</html>
