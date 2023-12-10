@@ -197,10 +197,10 @@ foodinputElement3.id = "Fried rice";
 foodinputElement3.type = "checkbox";
 foodinputElement3.name = "food";
 
-foodlabelElement4.innerText = "burgger";
+foodlabelElement4.innerText = "burger";
 DivformgroupElement.append(foodinputElement4,foodlabelElement4);
 DivformgroupElement.append(breakElement7);
-foodinputElement4.id = "burgger";
+foodinputElement4.id = "burger";
 foodinputElement4.type = "checkbox";
 foodinputElement4.name = "food";
 
